@@ -1,0 +1,379 @@
+/* DESKTOP */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* HEADER */
+  /* INFORMACION */
+  .informacion-proceso-title {
+    font-size: 2rem;
+  }
+  .informacion-card {
+    width: 75%;
+  }
+  /* SERVICIOS */
+  .grid-servicios-container {
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+    height: calc(90% - 6rem);
+    width: 90%;
+    max-width: 100%;
+    place-content: center;
+    gap: 35px 10px;
+  }
+
+  .servicios-title {
+    font-size: 2.5rem;
+  }
+
+  .servicio-title {
+    font-size: 1.5rem;
+  }
+  /* FOTOS TRABAJOS */
+  .fotosTrabajos-title {
+    font-size: 2.5rem;
+  }
+  /* PRESUPUESTO */
+  #presupuesto-title {
+    font-size: 2.5rem;
+  }
+
+  .presupuesto-form {
+    width: 65%;
+  }
+  /* FOOTER */
+}
+/* NOTEBOOKS */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* NAVBAR */
+  .navbar.active {
+    margin-bottom: 0;
+  }
+
+  .navbar__open {
+    display: inline-flex;
+  }
+
+  .navbar__list {
+    position: fixed;
+    background: var(--grey-color);
+    height: calc(100% - 4.5rem);
+    width: 100%;
+    top: -100vh;
+    text-align: center;
+    flex-direction: column;
+    transition: all 200ms ease-in-out;
+  }
+
+  .navbar__list-item__link {
+    color: var(--dark-color);
+  }
+
+  .show {
+    top: 4.5rem;
+  }
+
+  /* HEADER */
+  #inicio-title {
+    font-size: 4rem;
+  }
+
+  /* INFORMACION */
+
+  .informacion-proceso-title {
+    font-size: 2rem;
+  }
+
+  .informacion-card {
+    width: 100%;
+  }
+  /* SERVICIOS */
+  #servicios {
+    height: fit-content;
+  }
+
+  .servicios-title {
+    font-size: 2.5rem;
+    margin: 50px 0;
+  }
+
+  .servicio-title {
+    font-size: 1.5rem;
+  }
+
+  .grid-servicios-container {
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(3, 300px);
+  }
+  /* FOTOS TRABAJOS */
+
+  .fotosTrabajos-title {
+    font-size: 2.5rem;
+  }
+
+  /* PRESUPUESTO */
+
+  #presupuesto-title {
+    font-size: 2.5rem;
+  }
+
+  .presupuesto-form {
+    width: 75%;
+  }
+  /* FOOTER */
+}
+/* TABLET */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* NAVBAR */
+  .navbar.active {
+    margin-bottom: 0;
+  }
+
+  .navbar__open {
+    display: inline-flex;
+  }
+
+  .navbar__list {
+    position: fixed;
+    background: var(--grey-color);
+    height: calc(100% - 4.5rem);
+    width: 100%;
+    top: -100vh;
+    text-align: center;
+    flex-direction: column;
+    transition: all 200ms ease-in-out;
+  }
+
+  .navbar__list-item__link {
+    color: var(--dark-color);
+  }
+
+  .show {
+    top: 4.5rem;
+  }
+  /* HEADER */
+  #inicio-title {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  #inicio-explain {
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--white-color);
+  }
+
+  #inicio-zonas {
+    font-size: 0.7rem;
+  }
+
+  /* INFORMACION */
+  .informacion-card {
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(252, 163, 17, 1);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-container);
+  }
+
+  .informacion-proceso-title {
+    font-size: 1.3rem;
+  }
+
+  .informacion-card p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  /* SERVICIOS */
+  #servicios {
+    height: fit-content;
+  }
+
+  .servicios-title {
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+
+  .grid-servicios-container {
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(6, 300px);
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 100%;
+    place-content: center;
+    gap: 35px 10px;
+  }
+
+  .servicio-title {
+    font-size: 1.3rem;
+  }
+
+  .servicio-parrafo {
+    width: 95%;
+  }
+  /* FOTOS TRABAJOS */
+
+  .fotosTrabajos-title {
+    font-size: 2rem;
+    margin-bottom: 100px;
+  }
+  /* PRESUPUESTO */
+  #presupuesto-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .presupuesto-form {
+    width: 90%;
+    height: fit-content;
+  }
+  /* FOOTER */
+}
+/* CELULAR */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* NAVBAR */
+  .navbar.active {
+    margin-bottom: 0;
+  }
+
+  .navbar__open {
+    height: 50px;
+    display: inline-flex;
+    top: 15px;
+    right: 5px;
+  }
+
+  .navbar__logo {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    margin-left: 0;
+  }
+
+  .navbar__list {
+    position: fixed;
+    background: var(--grey-color);
+    height: calc(100% - 4.5rem);
+    width: 100%;
+    top: -100vh;
+    text-align: center;
+    flex-direction: column;
+    transition: all 200ms ease-in-out;
+  }
+
+  .navbar__list-item__link {
+    color: var(--dark-color);
+  }
+
+  .show {
+    top: 4.5rem;
+  }
+
+  /* HEADER */
+  #inicio-container {
+    text-align: center;
+  }
+  #inicio-title {
+    font-size: 1.5rem;
+    color: var(--white-color);
+  }
+  #inicio-explain {
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--white-color);
+  }
+  #inicio-zonas {
+    font-size: 0.6rem;
+  }
+  /* INFORMACIÓN */
+
+  .informacion-proceso {
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .informacion-proceso-title {
+    font-size: 1.3rem;
+    text-align: center;
+    border: none;
+  }
+  .informacion-card {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid rgba(252, 163, 17, 1);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-container);
+  }
+
+  .informacion-card p {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  /* SERVICIOS */
+
+  #servicios {
+    margin: 50px 0;
+    height: fit-content;
+  }
+
+  .grid-servicios-container {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(6, 250px);
+    gap: 35px 10px;
+    margin-bottom: 50px;
+  }
+
+  .servicios-title {
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }
+
+  .servicio-title {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  .servicio-parrafo {
+    font-weight: 500;
+    font-size: 1rem;
+    width: 90%;
+    text-align: justify;
+  }
+
+  /* FOTOS DE TRABAJOS */
+
+  .fotosTrabajos-title {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+
+  /* PRESUPUESTO */
+
+  #presupuesto-contacto {
+    height: fit-content;
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  .presupuesto-form {
+    height: 70%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #presupuesto-title {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  /* CONTACTO */
+
+  footer {
+    font-size: 0.7rem;
+  }
+}

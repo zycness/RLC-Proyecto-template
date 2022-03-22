@@ -1,0 +1,69 @@
+#servicios {
+  padding-top: 1rem;
+  height: calc(100vh + 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.servicios-title {
+  font-size: 3rem;
+}
+
+.servicios-title span {
+  background: var(--primary-color);
+  color: var(--white-color);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.34);
+}
+
+.grid-servicios-container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(2, 300px);
+  height: calc(90% - 6rem);
+  width: 90%;
+  max-width: 100%;
+  place-content: center;
+  gap: 35px 10px;
+}
+
+.grid-servicios-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgba(252, 163, 17, 1); */
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-container);
+}
+
+/* SERVICIO CARD */
+
+.servicio-icono {
+  position: absolute;
+  top: -30px;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
+.servicio-title {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 3px solid #fca311;
+  margin-bottom: 30px;
+}
+
+.servicio-parrafo {
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 80%;
+  text-align: justify;
+}

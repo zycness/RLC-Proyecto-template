@@ -1,0 +1,13 @@
+footer {
+  height: 7vh;
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > a{
+  color: #000;
+  margin-left: 4px;
+}
